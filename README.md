@@ -17,7 +17,7 @@ const myTextFromDatabase = 'First &middot; Second';
 <MyComponent myTextFromDatabase={myTextFromDatabase />}
 ```
  
-This is not a handy solution, because you now may need to filter out other HTML codes from the text. 
+This is not a handy solution, because you now may need to filter out other HTML codes from the string. 
   
 ## A simple solution
  

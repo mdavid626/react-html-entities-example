@@ -40,5 +40,8 @@ The replacement could happen beforehand, on the backend as well, or just like in
 ## How to run the example
 Run `npm install` and then `npm start`.
 
+## Live example
+A live example is available on https://mdavid626.github.io/react-html-entities-example/.
+
 ## References
-Based on https://blog.mdavid626.com/2019/03/31/How-to-use-HTML-entities-without-dangerouslySetInnerHTML/.
+Based on [this blog post](https://blog.mdavid626.com/2019/03/31/How-to-use-HTML-entities-without-dangerouslySetInnerHTML/) from Dávid Molnár.

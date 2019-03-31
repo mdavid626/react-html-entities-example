@@ -1,6 +1,6 @@
 # How to use HTML entities without dangerouslySetInnerHTML in React
 
-There may be times when you will want to render a text with HTML entities in it in your [React](https://reactjs.org/) application. An [HTML entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) is a piece of text (`string`) that begins with an ampersand (`&`) and ends with a semicolon (`;`). They are frequently used to display reserved and invisible characters, like non-breaking spaces (`&nbsp;`) or soft hyphens (`&#8203;`) for marking line breaking opportunities.
+There may be times when you will want to render a string with HTML entities in it in your [React](https://reactjs.org/) application. An [HTML entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity) is a piece of text (`string`) that begins with an ampersand (`&`) and ends with a semicolon (`;`). They are frequently used to display reserved and invisible characters, like non-breaking spaces (`&nbsp;`) or soft hyphens (`&#8203;`) for marking line breaking opportunities.
  
 To render these characters, you need to use [`dangerouslySetInnerHTML`](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml):
  
